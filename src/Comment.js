@@ -1,7 +1,15 @@
 import React from "react";
 
-function Comment() {
+export default function Comment() {
   return <div>Naturally, I agree with this article.</div>;
 }
 
-export default Comment;
+
+//A class component looks like this:
+
+class Comment extends React.Component {
+  render() {
+    return <div>Naturally, I agree with this article.</div>;
+  }
+}
+
